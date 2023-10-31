@@ -8,7 +8,29 @@ Filename: styles.css
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 0px 1px 1px #00000041;
-    color: #1c2022;
+    color: #dadada;
     letter-spacing: 1.2px;
     font-size: 20px;
+    background-color:#1c2022;
+}
+
+table {
+    width:80%;
+}
+
+table, td, th {
+    border:2px #dadada solid;
+    margin: auto;
+    padding:10px;
+    text-align:center;
+    background-color:#30373b;
+}
+
+.header-top {
+    text-align:center;
+    padding:35px 0px 35px 0px;
+}
+
+.header {
+    text-align:center;
 }
